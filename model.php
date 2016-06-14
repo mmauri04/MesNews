@@ -3,7 +3,7 @@
 
 function open_database_connection()
 {
-      $bdd = new PDO('mysql:host=localhost;dbname=mesnews;charset=utf8', 'mesnews_user', 'secret');
+      $bdd = new PDO('mysql:host=localhost;dbname=mesnews;charset=utf8', 'root', 'password');
 
       $bdd->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 
